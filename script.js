@@ -11,11 +11,12 @@ function getResults() {
     let adjective = document.getElementById("adjectiveIn").value;
     let presentVerb = document.getElementById("presentVerbIn").value;
     let noun = document.getElementById("nounIn").value;
+    let number = document.getElementById("numberIn").value;
 
     // Process
-    let resultString = '"There are too many ' + pluralNoun + ' on this ' + adjective + ' airplane!", I screamed. "Somebody has to ' + presentVerb + ' on the ' + noun + ' to solve this problem!"';
+    let resultString = '"What am I going to do with all these ' + adjective + " " + pluralNoun + '", I thought. "They will all ' + presentVerb + " if I don't get the " + noun + " in " + number + ' seconds."';
 
     // Output
     document.getElementById("result").innerHTML = resultString;
-    document.getElementById("result").style.display = 'block';
+    document.getElementById("resultDiv").style.display = 'block';
 }
