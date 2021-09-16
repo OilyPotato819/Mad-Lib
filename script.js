@@ -1,7 +1,6 @@
 // Mad Lib
 
 // Event Listeners
-
 document.getElementById("madBtn").addEventListener("click", getResults);
 
 // Event Function
